@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ioannis Anestis - Kifissia FC Super Fan</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Ioannis Anestis - Kifissia FC Super Fan</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Ioannis Anestis</h2>
+			<p>Ioannis Anestis is a resident of Kifissia and a super fan of Kifissia FC. He has been following the team for over 20 years and has never missed a game. He is known for his passionate support of the team and his loud cheering from the stands.</p>
+		</section>
+		<section id="gallery">
+			<h2>Gallery</h2>
+			<div class="gallery-item">
+				<img src="image1.jpg" alt="Kifissia FC">
+			</div>
+				<img src="image2.jpg" alt="Kifissia FC">
+			<div class="gallery-item">
+				<img src="image3.jpg" alt="Kifissia FC">
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact Ioannis Anestis</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Ioannis Anestis - Kifissia FC Super Fan</p>
+	</footer>
+</body>
+</html>
